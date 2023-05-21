@@ -30,7 +30,7 @@ What you should learn from this project:
 ---
 <img src="image.jpeg" align="center" />
 
-# 1. What is HTML?
+# 1. What is HTML? :bookmark_tabs:
 HTML (HyperText Markup Language) is a markup language used to structure and present content on web pages. It provides the basic structure of a web page by using tags and elements to define different parts of the content, such as headings, paragraphs, links, images, and more.
 
 ## 2. How to create an HTML page from a wireframe?
