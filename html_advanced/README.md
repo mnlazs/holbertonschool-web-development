@@ -63,3 +63,5 @@ Each HTML tag has a specific purpose and is used to represent different types of
    - `<form>`, `<input>`, `<button>`: Forms and input fields/buttons for user interaction.
    - `<div>`, `<span>`: General purpose containers for grouping and styling elements.
 
+## Author
+- **Manuel Zambrano** - [mnlazs](https://github.com/mnlazs) :rage4:
