@@ -28,7 +28,7 @@ What you should learn from this project:
 - You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, - VueJS, Bootstrap, etc.
 - Your code should be W3C compliant and validate with [W3C-Validator](https://github.com/hs-hq/W3C-Validator)
 ---
-
+<img src="image.jpeg" align="center" />
 # 1. What is HTML?
 HTML (HyperText Markup Language) is a markup language used to structure and present content on web pages. It provides the basic structure of a web page by using tags and elements to define different parts of the content, such as headings, paragraphs, links, images, and more.
 
