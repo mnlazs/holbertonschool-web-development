@@ -1,56 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-</head>
-<body>
-  <header>
-    <div style="text-align: left;">
-      <a><img src="path/to/image.jpg" alt="Logo"></a>
-    </div>
-    <div style="text-align: right;">
-      <nav>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .image-block {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+      }
 
-  <main>
-    <section>
-      <div style="text-align: center;">
-        <h1>TITLE</h1>
-        <p>3 WORDS</p>
-        <button>BUTTON</button>
+      .image-block img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div style="text-align: left;">
+        <a><img src="path/to/image.jpg" alt="Logo"></a>
       </div>
-      
-      <div style="text-align: center;">
-        <h2>TITLE2</h2>
-        <div>
+      <div style="text-align: right;">
+        <nav>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div style="text-align: center;">
+          <h1>TITLE</h1>
+          <p>3 WORDS</p>
+          <button>BUTTON</button>
+        </div>
+        
+        <div style="text-align: center;">
+          <h2>TITLE</h2>
           <div>
-            <img src="path/to/image1.jpg" alt="Image 1">
-            <h3>NAME</h3>
-            <p>SUB-TITLE</p>
-          </div>
-          <div>
-            <img src="path/to/image2.jpg" alt="Image 2">
-            <h3>NAME</h3>
-            <p>SUB-TITLE</p>
-          </div>
-          <div>
-            <img src="path/to/image3.jpg" alt="Image 3">
-            <h3>Heading 3</h3>
-            <p>Text content for Image 3</p>
-          </div>
-          <div>
-            <img src="path/to/image4.jpg" alt="Image 4">
-            <h3>Heading 3</h3>
-            <p>Text content for Image 4</p>
+            <div>
+              <div class="image-block">
+                <img src="path/to/image1.jpg" alt="Image 1">
+                <h3>NAME</h3>
+                <p>SUB-TITLE</p>
+              </div>
+            </div>
+            <div>
+              <div class="image-block"></div>
+                <img src="path/to/image2.jpg" alt="Image 2">
+                <h3>NAME</h3>
+                <p>SUB-TITLE</p>
+              </div>
+            </div>
+            <div>
+              <div class="image-block">
+                <img src="path/to/image3.jpg" alt="Image 3">
+                <h3>Heading 3</h3>
+                <p>Text content for Image 3</p>
+              </div>
+            </div>
+            <div>
+              <div class="image-block">
+                <img src="path/to/image4.jpg" alt="Image 4">
+                <h3>Heading 3</h3>
+                <p>Text content for Image 4</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-</body>
+      </section>
+    </main>
+  </body>
 </html>
