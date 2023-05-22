@@ -1,76 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <style>
-      .image-block {
-        display: inline-block;
-        width: 25%;
-        text-align: center;
-      }
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <div style="text-align: left;">
+      <a><img src="path/to/image.jpg" alt="Logo"></a>
+    </div>
+    <div style="text-align: right;">
+      <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </nav>
+    </div>
+  </header>
 
-      .image-block img {
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div style="text-align: left;">
-        <a><img src="path/to/image.jpg" alt="Logo"></a>
+  <main>
+    <section>
+      <div>
+        <h1>Heading 1</h1>
+        <p>Text content</p>
+        <button>Button</button>
       </div>
-      <div style="text-align: right;">
-        <nav>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <section>
-        <div style="text-align: center;">
-          <h1>TITLE</h1>
-          <p>3 WORDS</p>
-          <button>BUTTON</button>
-        </div>
-        
-        <div style="text-align: center;">
-          <h2>TITLE</h2>
+      
+      <div>
+        <h2>Heading 2</h2>
+        <div>
           <div>
-            <div>
-              <div class="image-block">
-                <img src="path/to/image1.jpg" alt="Image 1">
-                <h3>NAME</h3>
-                <p>SUB-TITLE</p>
-              </div>
-            </div>
-            <div>
-              <div class="image-block"></div>
-                <img src="path/to/image2.jpg" alt="Image 2">
-                <h3>NAME</h3>
-                <p>SUB-TITLE</p>
-              </div>
-            </div>
-            <div>
-              <div class="image-block"></div>
-                <img src="path/to/image3.jpg" alt="Image 3">
-                <h3>Heading 3</h3>
-                <p>Text content for Image 3</p>
-              </div>
-            </div>
-            <div>
-              <div class="image-block">
-                <img src="path/to/image4.jpg" alt="Image 4">
-                <h3>Heading 3</h3>
-                <p>Text content for Image 4</p>
-              </div>
-            </div>
+            <img src="path/to/image1.jpg" alt="Image 1">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 1</p>
+          </div>
+          <div>
+            <img src="path/to/image2.jpg" alt="Image 2">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 2</p>
+          </div>
+          <div>
+            <img src="path/to/image3.jpg" alt="Image 3">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 3</p>
+          </div>
+          <div>
+            <img src="path/to/image4.jpg" alt="Image 4">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 4</p>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+Please note that you need to replace the image paths (path/to/image.jpg and path/to/image1.jpg, etc.) with the actual paths to your images. Also, make sure to adjust the heading values and text content as needed.
+
+
+
+
+
+User
+quiero que cada imagen, este una al lado de la otra, y asi los cuatro segmentos de  <img> <h3> y <p>
+ChatGPT
+Si deseas que las imágenes se muestren una al lado de la otra en cuatro segmentos separados, puedes utilizar estilos CSS para lograrlo. Aquí tienes el código HTML modificado con los estilos añadidos:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    .image-block {
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+    }
+
+    .image-block img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="text-align: left;">
+      <a><img src="path/to/image.jpg" alt="Logo"></a>
+    </div>
+    <div style="text-align: right;">
+      <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <h1>Heading 1</h1>
+        <p>Text content</p>
+        <button>Button</button>
+      </div>
+      
+      <div>
+        <h2>Heading 2</h2>
+        <div>
+          <div class="image-block">
+            <img src="path/to/image1.jpg" alt="Image 1">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 1</p>
+          </div>
+          <div class="image-block">
+            <img src="path/to/image2.jpg" alt="Image 2">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 2</p>
+          </div>
+          <div class="image-block">
+            <img src="path/to/image3.jpg" alt="Image 3">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 3</p>
+          </div>
+          <div class="image-block">
+            <img src="path/to/image4.jpg" alt="Image 4">
+            <h3>Heading 3</h3>
+            <p>Text content for Image 4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
