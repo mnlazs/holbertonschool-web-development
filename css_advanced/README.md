@@ -30,7 +30,7 @@ What you should learn from this project:
 - You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, - VueJS, Bootstrap, etc.
 - Your code should be W3C compliant and validate with [W3C-Validator](https://github.com/hs-hq/W3C-Validator)
 ---
-<img src="image.jpeg" align="center" />
+<img src="infografia.png" align="center" />
 
 ## 1. What is CSS?
 CSS stands for Cascading Style Sheets. It is a stylesheet language used for describing the presentation of a document written in HTML or XML. CSS defines how elements in a web page should be displayed, including their layout, colors, fonts, and other visual aspects.
