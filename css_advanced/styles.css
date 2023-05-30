@@ -1,0 +1,518 @@
+.logo-container {
+  text-align: left; /* Centra el logo horizontalmente */
+  margin-top: 40px; /* Añade un poco de espacio alrededor del logo */
+  margin-left: 150px;
+}
+
+.courses-img {
+  position: relative; /* Establece la posición absoluta */
+  margin-bottom: 100px; /* Ajusta la posición verticalmente */
+  margin-right: 50px; /* Ajusta la posición horizontalmente hacia la derecha */
+  width: 55px;
+}
+
+.pricing-img {
+  position: relative; /* Establece la posición absoluta */
+  margin-bottom: 100px; /* Ajusta la posición verticalmente */
+  margin-right: 50px; /* Ajusta la posición horizontalmente hacia la derecha */
+  width: 50px;
+}
+
+.login-img {
+  position: relative; /* Establece la posición absoluta */
+  margin-bottom: 100px; /* Ajusta la posición verticalmente */
+  margin-right: 50px; /* Ajusta la posición horizontalmente hacia la derecha */
+  width: 38px;
+}
+
+header nav {
+  display: inline-block; /* Mostrar enlaces en línea */
+}
+
+header nav a {
+  display: inline-block; /* Mostrar enlaces en línea */
+  margin-left: 10px; /* Espacio entre los enlaces */
+}
+
+header nav a img {
+  width: 30px; /* Ancho de las imágenes de enlace */
+  height: auto; /* Altura ajustada automáticamente */
+}
+
+.main-bg {
+  background-image: url("images/background.png"); /* Ruta de la imagen de fondo */
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 1px; /* Espacio interno alrededor del encabezado */
+  }
+
+  .bigtitle {
+    width: 700px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente */
+    margin-top: 100px;
+  }
+
+  .three-words {
+    font-family: 'SourceSansPro-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    word-spacing: 50px; /* Aumenta el espaciado entre las palabras en 10 píxeles */
+
+  }
+
+  /*-----Boton ------*/ 
+  .botonmorado {
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: #C271FF;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+    border-radius: 22px;
+    color: white;
+  }
+  .botonmorado:hover {
+    background-color: #90269e;
+  }
+
+  /*------Learn from the Pros-------*/
+  .Learn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:#C271FF;
+    margin-top: 160px;
+    font-weight: bold;
+    }
+  
+.fdp{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color:#fffeff;
+    margin-top: 160px;
+}
+
+/*--------4 imagenes - faces-----------*/
+
+.faces-container {
+  display: flex; /* Mostrar las imágenes en línea */
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 90px;
+  
+}
+
+.redondeado {
+  width: 100px; /* Ajusta el tamaño de ancho deseado */
+  height: 100px; /* Ajusta el tamaño de alto deseado */
+  border-radius: 50%; /* Establece el radio de borde al 50% para hacerlas circulares */
+  margin-left: 150px;
+  max-width: 100%;
+
+}
+
+.nombre {
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 13px; /* Cambia el tamaño del título */
+    margin-top: 10px; /* Ajusta el espacio superior del título */
+    color: white;
+    margin-left: 150px;
+  }
+
+.subtitle {
+    font-family:'Source Sans Pro';
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+    margin-left: 150px;
+}
+.subtitle1 {
+    font-family:'Source Sans Pro';
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.rectangulo-quote{
+  background-color: #C271FF;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 60px;
+}
+.imagen5{
+  width: 100px; /* Ajusta el tamaño de ancho deseado */
+  height: 100px; /* Ajusta el tamaño de alto deseado */
+  border-radius: 50%; /* Establece el radio de borde al 50% para hacerla circular */
+  margin-top: 15px;
+}
+.quote-content {
+  color: white; /* Color del texto dentro del rectángulo */
+  margin-top: 20px; /* Espacio superior dentro del rectángulo */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.person-name{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+
+/*-------Most Popular Tutorials title-----------*/
+.bloquetercero{
+  margin-top: 40px;
+}
+
+.most{
+  margin-top: 40px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+text-align: center;
+color: #071629;
+}
+
+.popular{
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 35px;
+  text-align: center;
+  color:#C271FF;
+}
+
+.tutorials{
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  color: #071629;
+}
+
+
+/*-------video1-----------*/
+
+.video1{
+  margin-right: 25px;
+
+}
+.diagonal{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #071629;
+  
+}
+
+.parrafo1 {
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.phillip{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color:#C271FF;  
+  margin-right: 40px;
+}
+  .phillipimage {
+  width: 50px; /* Ajusta el ancho deseado */
+  height: 50px; /* Ajusta la altura deseada */
+  border-radius: 50%;
+}
+
+.timeref {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color:#C271FF;  
+  margin-right: 100px;
+}
+/*---------video2----------*/
+
+.video2{
+  margin-right: 25px;
+
+}
+.sad{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #071629;
+  
+}
+
+.parrafo2 {
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.phillip{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color:#C271FF;  
+  margin-right: 40px;
+}
+.phillipimage {
+width: 50px; /* Ajusta el ancho deseado */
+height: 50px; /* Ajusta la altura deseada */
+border-radius: 50%; 
+margin-right: 10px;
+}
+.timeref {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color:#C271FF;  
+  margin-right: 100px;
+}
+/*---------video3----------*/
+
+.video3{
+  margin-right: 25px;
+
+}
+.natural{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #071629;
+  
+}
+
+.parrafo3 {
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.phillip{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color:#C271FF;  
+  margin-right: 40px;
+}
+  .phillipimage {
+  width: 50px; /* Ajusta el ancho deseado */
+  height: 50px; /* Ajusta la altura deseada */
+  border-radius: 50%; 
+  margin-right: 10px;
+  }
+  .timeref {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color:#C271FF;  
+    margin-right: 100px;
+  }
+/*---------video4----------*/
+
+.video4{
+  margin-right: 25px;
+
+}
+.happy {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #071629;
+  
+}
+
+.parrafo4 {
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.phillip{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color:#C271FF;  
+  margin-right: 40px;
+}
+  .phillipimage {
+  width: 50px; /* Ajusta el ancho deseado */
+  height: 50px; /* Ajusta la altura deseada */
+  border-radius: 50%; 
+  margin-right: 10px;
+  }
+
+  .timeref {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color:#C271FF;  
+    margin-right: 100px;
+  }
+
+/*---------membreship section / seccion BLOQUE AZUL----------*/
+
+.membreship-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #071629;
+  padding: 50px 0;
+
+}
+/*---------membreship section / TITULO FREE MEMBRESHIP----------*/
+.Free{
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color:#C271FF;
+  margin-top: 100px;
+}
+
+.mem{
+  margin-top: 40px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.item-container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.smile-img {
+  width: 65px;
+  height: 55px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+.lorem {
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color:#ffffff;
+  margin-top: 40px;
+}
+
+.parrafolorem {
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+  color:#ffffff;
+}
+
+.FAQ{
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  color:#000000;
+  
+}
+.question{
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  color:#000000;
+}
+.answer{
+  width: 400px; /* Ajusta el ancho según tus necesidades */
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 120px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+  color:#000000;
+  
+}
+
+/*------------------FOOTER--------------------*/
+
+.lastblue{
+  display: flex;
+  flex-direction: column;
+  background-color: #071629;
+  padding: 50px 0;
+  margin-top: 15px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0px;
+}
+
+.logos{
+  padding: 50px;
+  margin-right: 150px;
+  margin-bottom: 9px;
+
+}
+.lastword{
+  color: #bdbdbd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
