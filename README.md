@@ -14,7 +14,7 @@
 
 ## Proyects:computer:
 
-  ### [ssh_Advance](./ssh_advance)
+  ### [css_advanced](./css_advanced)
   ### [Flexbox](./flexbox)
   ### [Sass](./sass_scss)
 
