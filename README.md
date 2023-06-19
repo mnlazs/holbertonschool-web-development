@@ -15,8 +15,7 @@
 ## Proyects:computer:
 
   ### [css_advanced](./css_advanced)
-  ### [Flexbox](./flexbox)
-  ### [Sass](./sass_scss)
+  ### [html_advanced](./html_advanced)
 
 ## Contact :postbox:	
 For any inquiries or feedback, please reach out to me at mnl.azs@gmail.com.
